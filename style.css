@@ -1,0 +1,322 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.container{
+    padding: 40px 100px;
+    background-color: black;
+    color: white;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+[alt="logo"]{
+    height: 30px;
+}
+
+ul{
+    list-style-type: none;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* banner */
+
+.banner{
+    display: flex;
+}
+
+[alt="Person"]{
+    width: 700px;
+}
+
+.banner_right h3{
+color: orangered;
+position: relative;
+top: 200px;
+}
+
+.banner_right h1{
+    font-size: 4.5em;
+    position: relative;
+top: 200px;
+
+}
+
+.banner_right p{
+    width: 500px;
+    position: relative;
+    top: 240px;
+    line-height: 1.4em;
+}
+
+.banner_right button{
+    background-color: orangered;
+    padding: 10px 30px;
+    position: relative;
+    top: 300px;
+}
+
+/* section */
+
+.sec_top{
+    display: flex;
+    
+    justify-content: space-around;
+    padding: 100px 100px;
+   
+}
+
+/* sec1 */
+.sec1{
+    padding: 15px 25px;
+    background-color: hsl(0, 0%, 50%,0.2);
+    width: 150px;
+    height: 200px;
+}
+
+.sec1 i{
+    padding: 10px;
+}
+
+.sec1 h3{
+    padding:15px;
+    
+}
+
+.sec1 p{
+    width: 180px;
+    padding: 5px;
+}
+
+
+/* sec2 */
+.sec2{
+    padding: 15px 25px;
+    background-color: orangered;
+    width: 150px;
+    height: 200px;
+    position: relative;
+    right: 50px;
+}
+
+.sec2 i{
+    padding: 10px;
+}
+
+.sec2 h3{
+    padding:15px;
+}
+
+.sec2 p{
+    width: 180px;
+    padding: 5px;
+}
+
+/* sec1 */
+.sec3{
+    padding: 15px 25px;
+    background-color: hsl(0, 0%, 50%,0.2);
+    width: 150px;
+    height: 200px;
+    position: relative;
+    right: 25px;
+}
+
+.sec3 i{
+    padding: 10px;
+}
+
+.sec3 h3{
+    padding:15px;
+}
+
+.sec3 p{
+    width: 180px;
+    padding: 5px;
+}
+
+
+/* sec_bottom */
+
+.sec_bottom{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 100px;
+    text-align: center;
+}
+
+.show1 h1{
+   font-size: 3em;
+   color: orangered;
+}
+
+
+.up1{
+    background: hsl(0, 0%, 50%,0.2);
+    padding: 5px 40px;
+    margin: 8px;
+    
+}
+.up1 h1{
+    color: orangered;
+}
+
+.down1{
+    background: hsl(0, 0%, 50%,0.2);
+    padding: 5px 40px;
+    margin: 8px;
+    
+}
+.dwon1 h1{
+    color: orangered;
+}
+
+.up2{
+    background: hsl(0, 0%, 50%,0.2);
+    padding: 5px 40px;
+    margin: 8px;
+    
+}
+.up2 h1{
+    color: orangered;
+}
+
+.down2{
+    background: hsl(0, 0%, 50%,0.2);
+    padding: 5px 40px;
+    margin: 8px;
+    
+}
+.dwon2 h1{
+    color: orangered;
+}
+
+
+
+/* products */
+
+
+.products{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    line-height: 2em;
+
+}
+/* 
+.product_heading{
+    position: relative;
+    right: 50px;
+} */
+
+.product_btn button{
+    padding: 10px 35px;
+    background-color: orangered;
+    color:white
+
+}
+
+/* projects */
+
+.project_top{
+    display: flex;
+    justify-content: space-around;
+    line-height: 2em;
+
+}
+
+.project_top img{
+    width: 500px;
+    padding: 50px;
+    background-color: hsl(0, 0%, 50%,0.2);
+}
+
+.project_top p{
+    color: orangered;
+}
+
+.project_bottom{
+    display: flex;
+    justify-content: space-around;
+    line-height: 2em;
+
+}
+
+.project_bottom img{
+    width: 500px;
+    padding: 50px;
+    background-color: hsl(0, 0%, 50%,0.2);
+}
+
+.project_bottom p{
+    color: orangered;
+}
+
+.img4 img{
+    height: 330px;
+}
+
+.footer_content{
+    display: flex;
+    padding: 50px 50px;
+    background-color:  hsl(0, 0%, 50%,0.2);
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+    
+}
+
+.f1 h1{
+    font-size: 2.5em;
+    
+    width: 600px;
+    
+}
+.f1 p{
+    margin: 30px;
+}
+
+.f2 button{
+    padding: 10px 30px;
+    background-color: orangered;
+    color:white
+}
+
+footer ul{
+    position: relative;
+    left: 350px;
+    padding: 30px;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    
+    background-color: hsl(0, 0%, 50%,0.2);
+    height: 70px;
+    align-items: center;
+    width: 100vw;
+    position: relative;
+    left: -90px;
+
+}
+
+.sleft img{
+height: 35px;
+position: relative;
+left:-90px
+}
+
+
+.sright i{
+    padding: 0 20px;
+}
